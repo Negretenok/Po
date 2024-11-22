@@ -44,7 +44,7 @@
 /* active-link */
 .active-link,
 .nav__link:hover {
-    color: var(--title-color-dark);
+    color: #333; /* Вместо var(--title-color-dark) */
 }
 
 
@@ -104,7 +104,7 @@
 
 .nav__link:hover,
 .active-link {
-    color: var(--title-color-dark);
+    color: #333; /* Вместо var(--title-color-dark) */
 }
 
 /* Мобильные стили */
@@ -151,7 +151,7 @@
 
 
     .nav__close:hover {
-        color: var(--title-color-dark);
+        color: #333; /* Вместо var(--title-color-dark) */
     }
 
 
